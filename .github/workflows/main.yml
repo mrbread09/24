@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Python
-      run: python '1.py'
+      run: python test.py
