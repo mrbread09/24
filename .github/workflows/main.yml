@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-   - uses: actions/checkout@v2
-   - name: 파이썬 버전 실행!!
-      run: python 1.py    
+    - uses: actions/checkout@v2
+    - name: Run Python
+      run: python 1.py
