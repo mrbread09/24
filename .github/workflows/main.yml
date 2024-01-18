@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Python
-      run: python /github/workspace/test.py
+      run: 1.py
